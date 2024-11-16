@@ -5,7 +5,7 @@ from PIL import Image
 import os
 
 ##model_directory = r'C:\Users\kevst\OneDrive\Documents\Kuliah\Sem 5\Pembelajaran Mesin dan Pembelajaran Mendalam\Introduction to Deep Learning (Praktek)\Introduction to Deep Learning (Praktek)'
-model_path =  r'best_model.pkl'
+model_path =  'best_model.pkl'
 
 if os.path.exists(model_path):
     try:
